@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "427b3c1b18ac395902846e438301a292",
+    "revision": "04a8656cadc6f71d6fdb8e495db0e58e",
     "url": "/cocos/index.html"
   },
   {
-    "revision": "163098d60d6f6f87d812",
+    "revision": "83ba811b99c5b5c05fff",
     "url": "/cocos/static/css/main.b4425c23.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cocos/static/js/2.0216fdb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "163098d60d6f6f87d812",
-    "url": "/cocos/static/js/main.7dd2467c.chunk.js"
+    "revision": "83ba811b99c5b5c05fff",
+    "url": "/cocos/static/js/main.ae4e9c21.chunk.js"
   },
   {
     "revision": "da8339e94501e616419a",

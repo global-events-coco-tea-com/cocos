@@ -1,6 +1,5 @@
 // Imports
 import React, { useState } from 'react';
-import { Alert } from 'react-alert'
 
 // CSS
 import './main.css';
@@ -18,7 +17,7 @@ const Main = () => {
 
   return (
     <div className="main">
-      <img className="offer" src={HalfOff}></img>
+      <img className="offer" src={HalfOff} alt="50% off"></img>
       <div className="promo-text">
         <div className="half-off-text">50% OFF</div>
         <div className="redemption-text">Redemption dates: 2020-08-25 ~ 2020-10-09</div>

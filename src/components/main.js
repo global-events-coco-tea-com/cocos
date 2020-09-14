@@ -11,7 +11,7 @@ const Main = () => {
   const [redeemed, setRedeemed] = useState("Redeem (by staff)");
 
   const redeemButtonClick = () => {
-    setRedeemed("Redeemed");
+    setTimeout(() => { setRedeemed("Redeemed"); }, 1250);
   }
 
   return (

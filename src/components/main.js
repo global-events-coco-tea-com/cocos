@@ -7,6 +7,26 @@ import './main.css';
 // Assets
 import HalfOff from './../assets/halfOff.png';
 
+const getMobileOperatingSystem = () => {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+  // Windows Phone must come first because its UA also contains "Android"
+  if (/windows phone/i.test(userAgent)) {
+    return "Windows Phone";
+  }
+
+  if (/android/i.test(userAgent)) {
+    return "Android";
+  }
+
+  // iOS detection from: http://stackoverflow.com/a/9039885/177710
+  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    return "iOS";
+  }
+
+  return "unknown";
+}
+
 const Main = () => {
   const [redeemed, setRedeemed] = useState("Redeem (by staff)");
 
@@ -15,8 +35,15 @@ const Main = () => {
     window.confirm("Would you like to redeem your prize now? Click confirm to continue.");
   }
 
+  const renderModal = () => {
+    return (
+      getMobileOperatingSystem()
+    );
+  }
+
   return (
     <div className="main">
+      {renderModal()}
       <img className="offer" src={HalfOff} alt="50% off"></img>
       <div className="promo-text">
         <div className="half-off-text">50% OFF</div>

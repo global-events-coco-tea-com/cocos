@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cocos/static/css/main.4db6cf08.chunk.css",
+    "main.js": "/cocos/static/js/main.348fb4d5.chunk.js",
+    "main.js.map": "/cocos/static/js/main.348fb4d5.chunk.js.map",
+    "runtime-main.js": "/cocos/static/js/runtime-main.2b5a7b4c.js",
+    "runtime-main.js.map": "/cocos/static/js/runtime-main.2b5a7b4c.js.map",
+    "static/js/2.0216fdb6.chunk.js": "/cocos/static/js/2.0216fdb6.chunk.js",
+    "static/js/2.0216fdb6.chunk.js.map": "/cocos/static/js/2.0216fdb6.chunk.js.map",
+    "index.html": "/cocos/index.html",
+    "precache-manifest.a4fc305c610371b55fe5f3f1f879f20c.js": "/cocos/precache-manifest.a4fc305c610371b55fe5f3f1f879f20c.js",
+    "service-worker.js": "/cocos/service-worker.js",
+    "static/css/main.4db6cf08.chunk.css.map": "/cocos/static/css/main.4db6cf08.chunk.css.map",
+    "static/js/2.0216fdb6.chunk.js.LICENSE.txt": "/cocos/static/js/2.0216fdb6.chunk.js.LICENSE.txt",
+    "static/media/halfOff.png": "/cocos/static/media/halfOff.6a77a698.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b5a7b4c.js",
+    "static/js/2.0216fdb6.chunk.js",
+    "static/css/main.4db6cf08.chunk.css",
+    "static/js/main.348fb4d5.chunk.js"
+  ]
+}

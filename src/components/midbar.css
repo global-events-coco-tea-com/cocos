@@ -1,0 +1,39 @@
+.midbar {
+  padding: 1.5rem 0.5rem 0;
+}
+
+.back-button {
+  font-size: 0.8125rem;
+  background: rgb(255, 255, 255);
+  color: rgb(51, 51, 51);
+  border: 1px solid rgb(51, 51, 51);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 29px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.save-button {
+  font-size: 0.8125rem;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 29px;
+  float: right;
+  position: relative;
+  color: rgb(194, 30, 36);
+  border: 1px solid rgb(194, 30, 36);
+}
+
+.back-icon, .save-icon {
+  font-size: 17.5px;
+  vertical-align: middle;
+}
+
+.back-text, .save-text {
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+}
